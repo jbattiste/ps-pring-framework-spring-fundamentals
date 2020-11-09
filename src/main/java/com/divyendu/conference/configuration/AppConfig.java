@@ -1,4 +1,4 @@
-package com.divyendu.conference.configuration;
+package com.jbattiste.conference.configuration;
 
 import java.util.Calendar;
 
@@ -6,10 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.divyendu.conference.util.CalendarFactory;
+import com.jbattiste.conference.util.CalendarFactory;
 
 @Configuration
-@ComponentScan({"com.divyendu.conference"})
+@ComponentScan({"com.jbattiste.conference"})
 public class AppConfig {
 	 
 //	@Bean(name = "speakerService")

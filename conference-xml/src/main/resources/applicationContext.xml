@@ -5,20 +5,20 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean name="speakerRepository1"
-			class="com.divyendu.conference.repository.HibernateSpeakerRepositoryImpl" />
+			class="com.jbattiste.conference.repository.HibernateSpeakerRepositoryImpl" />
 			
 	<bean name="speakerRepository2"
-			class="com.divyendu.conference.repository.HibernateSpeakerRepositoryImpl" />
+			class="com.jbattiste.conference.repository.HibernateSpeakerRepositoryImpl" />
 			
 	<!-- setter based DI -->
 	<!-- <bean name="speakerService"
-			class="com.divyendu.conference.service.SpeakerServiceImpl">
+			class="com.jbattiste.conference.service.SpeakerServiceImpl">
 		<property name="speakerRepository" ref="speakerRepository"/>		
 	</bean> -->
 	
 	<!-- constructor based DI -->
 	<bean name="speakerService"
-			class="com.divyendu.conference.service.SpeakerServiceImpl" autowire="byName" >
+			class="com.jbattiste.conference.service.SpeakerServiceImpl" autowire="byName" >
 		<!-- <constructor-arg index="0" ref="speakerRepository"/>-->	
 	</bean>
 

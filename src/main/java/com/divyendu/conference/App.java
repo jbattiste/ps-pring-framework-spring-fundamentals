@@ -1,10 +1,10 @@
-package com.divyendu.conference;
+package com.jbattiste.conference;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.divyendu.conference.configuration.AppConfig;
-import com.divyendu.conference.service.SpeakerService;
+import com.jbattiste.conference.configuration.AppConfig;
+import com.jbattiste.conference.service.SpeakerService;
 
 public class App 
 {

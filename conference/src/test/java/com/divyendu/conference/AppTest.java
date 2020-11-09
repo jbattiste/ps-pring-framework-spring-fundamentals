@@ -1,4 +1,4 @@
-package com.divyendu.conference;
+package com.jbattiste.conference;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

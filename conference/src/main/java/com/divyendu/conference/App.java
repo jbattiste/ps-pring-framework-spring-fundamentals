@@ -1,7 +1,7 @@
-package com.divyendu.conference;
+package com.jbattiste.conference;
 
-import com.divyendu.conference.service.SpeakerService;
-import com.divyendu.conference.service.SpeakerServiceImpl;
+import com.jbattiste.conference.service.SpeakerService;
+import com.jbattiste.conference.service.SpeakerServiceImpl;
 
 public class App 
 {

@@ -1,4 +1,4 @@
-package com.divyendu.conference.service;
+package com.jbattiste.conference.service;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
-import com.divyendu.conference.model.Speaker;
-import com.divyendu.conference.repository.SpeakerRepository;
+import com.jbattiste.conference.model.Speaker;
+import com.jbattiste.conference.repository.SpeakerRepository;
 
 @Service("speakerService")
 @Scope(value = BeanDefinition.SCOPE_SINGLETON)

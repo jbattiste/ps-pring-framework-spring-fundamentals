@@ -1,9 +1,9 @@
-package com.divyendu.conference;
+package com.jbattiste.conference;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.divyendu.conference.service.SpeakerService;
+import com.jbattiste.conference.service.SpeakerService;
 
 public class App 
 {

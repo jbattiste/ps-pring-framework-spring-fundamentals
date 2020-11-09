@@ -1,9 +1,9 @@
-package com.divyendu.conference.repository;
+package com.jbattiste.conference.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.divyendu.conference.model.Speaker;
+import com.jbattiste.conference.model.Speaker;
 
 public class HibernateSpeakerRepositoryImpl implements SpeakerRepository{
 
@@ -11,7 +11,7 @@ public class HibernateSpeakerRepositoryImpl implements SpeakerRepository{
 			List<Speaker> speakers = new ArrayList<>();
 			
 			Speaker speaker = new Speaker();
-			speaker.setFirstName("Divyendu");
+			speaker.setFirstName("jbattiste");
 			speaker.setLastName("Dutta");
 			
 			speakers.add(speaker);

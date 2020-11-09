@@ -1,4 +1,4 @@
-package com.divyendu.conference.repository;
+package com.jbattiste.conference.repository;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
-import com.divyendu.conference.model.Speaker;
+import com.jbattiste.conference.model.Speaker;
 
 @Repository("hibernateSpeakerRepository")
 @Profile("dev")
@@ -26,7 +26,7 @@ public class HibernateSpeakerRepositoryImpl implements SpeakerRepository{
 			List<Speaker> speakers = new ArrayList<>();
 			
 			Speaker speaker = new Speaker();
-			speaker.setFirstName("Divyendu");
+			speaker.setFirstName("jbattiste");
 			speaker.setLastName("Dutta");
 			speaker.setSeedNum(seedNum);
 			

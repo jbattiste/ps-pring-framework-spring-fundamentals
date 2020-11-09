@@ -1,4 +1,4 @@
-package com.divyendu.conference.model;
+package com.jbattiste.conference.model;
 
 public class Speaker { 
 	

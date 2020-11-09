@@ -1,4 +1,4 @@
-package com.divyendu.conference.util;
+package com.jbattiste.conference.util;
 
 import java.util.Calendar;
 

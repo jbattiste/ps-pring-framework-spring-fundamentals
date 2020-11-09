@@ -1,10 +1,10 @@
-package com.divyendu.conference.service;
+package com.jbattiste.conference.service;
 
 import java.util.List;
 
-import com.divyendu.conference.model.Speaker;
-import com.divyendu.conference.repository.HibernateSpeakerRepositoryImpl;
-import com.divyendu.conference.repository.SpeakerRepository;
+import com.jbattiste.conference.model.Speaker;
+import com.jbattiste.conference.repository.HibernateSpeakerRepositoryImpl;
+import com.jbattiste.conference.repository.SpeakerRepository;
 
 public class SpeakerServiceImpl implements SpeakerService{
 	
